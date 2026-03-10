@@ -1,0 +1,39 @@
+{
+    "name": "jardisport/repository",
+    "description": "Repository interface and contracts for Jardis CRUD persistence",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jardis Development",
+            "email": "jardisDev@headgent.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "jardisport/dbquery": "^1.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.4",
+        "squizlabs/php_codesniffer": "^3.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JardisPort\\Repository\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/jardisPort/repository",
+    "support": {
+        "issues": "https://github.com/jardisPort/repository/issues",
+        "email": "jardisCore@headgent.dev"
+    },
+    "keywords": [
+        "repository",
+        "interfaces",
+        "JardisPort",
+        "Headgent",
+        "DDD"
+    ]
+}
